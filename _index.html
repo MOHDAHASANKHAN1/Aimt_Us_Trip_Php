@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>PHP Learning</title>
+  </head>
+  <body>
+    <div
+      style="background-image: url('Aimt.jpg')"
+      class="h-screen bg-no-repeat bg-cover bg-center bg-fixed"
+    >
+      <div class="pt-10">
+        <div>
+          <i
+            ><p class="text-center font-bold text-4xl">
+              Welcome to Aimt Lucknow US Trip Form
+            </p>
+            <p class="text-center font-bold text-md pt-5">
+              Enter your details and submit this form to confirm your
+              participation in the trip
+            </p>
+            <p class="text-center font-bold text-md">
+              Thanks for submiting your form. We are happy to see you joining us
+              for the US trip
+            </p></i
+          >
+        </div>
+        <div class="flex justify-center">
+          <div class="flex w-2/4 flex-col items-center justify-center">
+            <div
+              class="w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700"
+            >
+              <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+                <form
+                  class="space-y-4 md:space-y-6"
+                  action="submit.php"
+                  method="post"
+                >
+                  <div>
+                    <input
+                      type="text"
+                      name="name"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter your name"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="number"
+                      name="age"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter your age"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      name="gender"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter your gender"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter your email"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="number"
+                      name="phone"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter your phone number"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <textarea
+                      name="others"
+                      class="border-4 border-gray-900 bg-gray-50 text-gray-900 sm:text-sm rounded-lg block w-full p-2"
+                      placeholder="Enter any other information here"
+                      required=""
+                      cols="30"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="font-bold border-4 border-gray-900 w-full text-white bg-blue-700 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                  >
+                    Submit Form
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+  </body>
+</html>
